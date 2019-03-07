@@ -1,0 +1,20 @@
+*.iml
+/local.properties
+.idea/*
+build/
+.DS_Store
+/captures
+.externalNativeBuild
+
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+# Gradle files
+.gradle/
+sign/
+
+src/test/
+src/androidTest/
