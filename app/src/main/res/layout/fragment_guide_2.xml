@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="match_parent"
+                                       android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="695px"
+        android:layout_height="434px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/slg3"
+        />
+
+
+    <ImageView
+        android:id="@+id/guide31"
+        android:layout_width="400px"
+        android:layout_height="550px"
+        android:layout_below="@+id/top"
+        android:layout_marginLeft="130px"
+        android:src="@drawable/guide_3_a"
+        />
+
+    <ImageView
+        android:id="@+id/guide32"
+        android:layout_width="400px"
+        android:layout_height="550px"
+        android:layout_below="@+id/top"
+        android:layout_toRightOf="@id/guide31"
+        android:src="@drawable/guide_3_b"
+        />
+
+
+    <ImageView
+        android:id="@+id/guide33"
+        android:layout_width="400px"
+        android:layout_height="550px"
+        android:layout_below="@+id/guide31"
+        android:layout_marginLeft="130px"
+        android:src="@drawable/guide_3_c"
+        />
+
+    <ImageView
+        android:id="@+id/guide34"
+        android:layout_width="400px"
+        android:layout_height="550px"
+        android:layout_below="@+id/guide32"
+        android:layout_toRightOf="@id/guide33"
+        android:src="@drawable/guide_3_d"
+        />
+
+
+</RelativeLayout>
